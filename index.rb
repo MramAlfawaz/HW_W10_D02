@@ -19,37 +19,6 @@ upper_case_full_names = students.map{|x| x.values.join(" ").upcase }.inspect
 puts upper_case_full_names
 
 puts "--------------------"
-# puts upper_case_full_names.upcase
-
-# upper_case_full_names1 =  students.first.values.map{|h| [h.upcase]}
-# puts upper_case_full_names1.join(" ").upcase
-
-# upper_case_full_names1 =  students.first.values.map{|h| [h.upcase]}
-# puts upper_case_full_names1.join(" ").upcase
-
-
-# hash = { bacon: "protein", apple: "fruit" }
-# ui = hash.map { |k,v| puts [k, v.to_sym] }
-
-# def upcase_hash_keys(h)
-#   if h.is_a?(Hash)
-#     h.keys.each do |key|
-#       new_key = key.to_s.upcase
-#       h[new_key] = h.delete(key)
-#       upcase_hash_keys(h[new_key])
-#     end
-#   elsif h.respond_to?(:each)
-#     h.each { |e| upcase_hash_keys(e) }
-#   end
-#   h
-# end
-
-# upcase_hash_keys(students)
-# p students
-# arr1 = [:a => {:name=>"Bob",:age=>"10",:city=>"NY"},
-#         :b => {:name=>"Mike",:age=>"20",:city=>"FL"}]
-
-# arr1.first.values.map{|h| puts [h[:name].upcase, h[:age].upcase]}
 
 # 2. Find the first order for each user
 users = [
